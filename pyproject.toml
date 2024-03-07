@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "excel-sql"
+version = "0.1.0"
+description = ""
+authors = ["Prem Kumar G <premkumarmvks@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.1"
+streamlit = "^1.31.1"
+openpyxl = "^3.1.2"
+duckdb = "^0.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
